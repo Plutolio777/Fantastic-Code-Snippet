@@ -1,5 +1,7 @@
+# 摘自redis-1.6.2
 
-摘自redis-1.6.2
+该段代码是redis中用于读取用户输入命令的代码
+
 ~~~C
 static char *prompt(char *line, int size) {
     char *retval;
